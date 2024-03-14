@@ -3,7 +3,7 @@
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 void setup() {
-  pinMode(A3, INPUT);
+  pinMode(A3, OUTPUT);
   lcd.init();
   lcd.backlight();
   lcd.print("Hello Welcome ;D");
